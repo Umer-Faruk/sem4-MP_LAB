@@ -4,7 +4,9 @@ int gcd(int m,int n)
     if(!n)
     {return m;}
     if(n>m)
-    return gcd(n,m);
+    {
+        return gcd(n,m);
+    }
     return gcd(n,m%n);
 }
 void main()
