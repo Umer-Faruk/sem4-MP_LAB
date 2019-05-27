@@ -1,1 +1,0 @@
-# cprogram-1st-intarnal
